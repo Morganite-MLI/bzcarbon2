@@ -84,8 +84,8 @@ else
       energy_required = 24,
       ingredients = {
         {type="fluid", name="epoxy", amount = 20},
-        {"plastic-bar", 2},
-        {"polyacrylonitrile", 4},
+        { type = "item", name = "plastic-bar", amount = 2 },
+        { type = "item", name = "polyacrylonitrile", amount = 4 },
       },
       results = {
         {type="item", name= "carbon-fiber", amount=8},

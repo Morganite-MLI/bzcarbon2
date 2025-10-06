@@ -15,9 +15,7 @@ se_delivery_cannon_recipes["diamond"] = {name= "diamond"}
 if util.me.use_flake_graphite() then
   util.se_landfill({ore="flake-graphite"})
   se_delivery_cannon_recipes["flake-graphite"] = {name= "flake-graphite"}
-  if mods["space-exploration"] > "0.6" then
-    util.se_matter({ore="flake-graphite", energy_required=1, quant_out=10, stream_out=60})
-  end
+  util.se_matter({ore="flake-graphite", energy_required=1, quant_out=10, stream_out=60})
 end
 if util.me.use_rough_diamond() then
   se_delivery_cannon_recipes["rough-diamond"] = {name= "rough-diamond"}
@@ -37,11 +35,11 @@ data:extend({
       always_show_made_in = true,
       allow_as_intermediate = false,
       ingredients = {
-        {name = "graphite", amount = 20},
-        {name = "se-vulcanite-block", amount = 1},
+        {type = "item", name = "graphite", amount = 20},
+        {type = "item", name = "se-vulcanite-block", amount = 1},
       },
       results = {
-        {name = "diamond", amount = 3},
+        {type = "item", name = "diamond", amount = 3},
       },
       icons =
       {

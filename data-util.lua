@@ -504,8 +504,8 @@ function util.se_landfill(params)
         category = "hard-recycling",
         order = "z-b-"..params.ore,
         subgroup = "terrain",
-        result = "landfill",
-        ingredients = {{params.ore, 50}},
+        results = {{type="item", name="landfill", amount=1}},
+        ingredients = {{type="item", name=params.ore, amount=50}},
       }
     })
     util.add_unlock("se-recycling-facility", lname)
@@ -584,7 +584,6 @@ end
 -- se matter
 -- params: ore, energy_required, quant_out, quant_in, icon_size, stream_out
 function util.se_matter(params)
-  if mods["space-exploration"] > "0.6" then
     if not params.quant_in then params.quant_in = params.quant_out end
     if not params.icon_size then params.icon_size = 64 end
     local fname = "matter-fusion-"..params.ore
@@ -611,20 +610,20 @@ function util.se_matter(params)
         energy_required = params.energy_required,
         enabled = false,
         ingredients = {
-          {sedata, 1},
+          {type="item", name=sedata, amount=1},
           {type="fluid", name="se-particle-stream", amount=50},
           {type="fluid", name="se-space-coolant-supercooled", amount=25},
         },
         results = {
-          {params.ore, params.quant_out},
-          {"se-contaminated-scrap", 1},
-          {type=item, name=sedata, amount=1, probability=.99},
-          {type=item, name=sejunk, amount=1, probability=.01},
+          {type="item", name=params.ore, amount=params.quant_out},
+          {type="item", name="se-contaminated-scrap", amount=1},
+          {type="item", name=sedata, amount=1, probability=.99},
+          {type="item", name=sejunk, amount=1, probability=.01},
           {type="fluid", name="se-space-coolant-hot", amount=25, ignored_by_stats=25, ignored_by_productivity=25},
         }
       }
     })
-    util.add_unlock("se-space-matter-fusion", fname) 
+    util.add_unlock("se-space-matter-fusion", fname)
 
     if util.k2() then
       local lname = params.ore.."-to-particle-stream"
@@ -650,13 +649,13 @@ function util.se_matter(params)
           energy_required = 30,
           enabled = false,
           ingredients = {
-            {"se-kr-matter-liberation-data", 1},
-            {params.ore, params.quant_in},
+            {type="item", name="se-kr-matter-liberation-data", amount=1},
+            {type="item", name=params.ore, amount=params.quant_in},
             {type="fluid", name="se-particle-stream", amount=50},
           },
           results = {
-            {type=item, name="se-kr-matter-liberation-data", amount=1, probability=.99},
-            {type=item, name=sejunk, amount=1, probability=.01},
+            {type="item", name="se-kr-matter-liberation-data", amount=1, probability=.99},
+            {type="item", name=sejunk, amount=1, probability=.01},
             {type="fluid", name="se-particle-stream", amount=params.stream_out, ignored_by_stats=50, ignored_by_productivity=50},
           }
         }
@@ -687,16 +686,15 @@ function util.se_matter(params)
                 {"kr-matter-tech-card", 1},
                 {"se-deep-space-science-pack-1", 1},
               }
-              
+
             },
             prerequisites = {"se-kr-advanced-stream-production"},
           },
         })
       end
-      util.add_unlock("bz-advanced-stream-production", lname) 
+      util.add_unlock("bz-advanced-stream-production", lname)
     end
   end
-end
 
 -- deprecated
 -- Get the normal prototype for a recipe -- either .normal or the recipe itself
@@ -1119,7 +1117,6 @@ end
 
 function replace_some_product(recipe, old, old_amount, new, new_amount)
 	if recipe ~= nil then
-    if recipe.result == new then return end
     if recipe.results then
       for i, existing in pairs(recipe.results) do
         if existing.name == new then
@@ -1210,10 +1207,6 @@ function set_product_amount(recipe, product, amount)
           end
         end
       end
-    end
-    if not recipe.results and not recipe.result_count then
-      -- implicit one item result
-      recipe.result_count = amount
     end
   end
 end
@@ -1347,10 +1340,6 @@ function replace_product(recipe, old, new, options)
   if recipe then
     if recipe.main_product == old then
       recipe.main_product = new
-    end
-    if recipe.result == old then
-      recipe.result = new
-      return
     end
     if recipe.results then
       for i, result in pairs(recipe.results) do
@@ -1611,10 +1600,6 @@ end
 
 function add_to_product(recipe, product, amount)
   if recipe ~= nil and recipe.results ~= nil then
-    if recipe.result == product then
-      recipe.result_count = recipe.result_count + amount
-      return
-    end
     for i, result in pairs(recipe.results) do
 			if result.name == product then
         result.amount = result.amount + amount

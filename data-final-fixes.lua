@@ -32,7 +32,7 @@ end
 
 
 -- Green circuits in final fixes due to K2 shenanigans 
-if mods.MDbobelectronics or mods.bobelectronics then
+if mods.MDbobelectronics or mods.MDbobelectronics2 or mods.bobelectronics then
   util.replace_ingredient("basic-electronic-components", "coal", "graphite")
   util.replace_ingredient("basic-electronic-components", "coke", "graphite")
 else

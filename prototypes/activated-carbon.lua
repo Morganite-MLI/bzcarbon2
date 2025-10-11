@@ -20,7 +20,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
     order = "d[graphite-carbon-fiber]",
     enabled = false,
     energy_required = 2.5,
-    ingredients = data.raw.fluid["ammonia"] and
+    ingredients = data.raw.fluid["kr-ammonia"] and
     {
       util.item(precursor),
       util.fluid("steam"),
@@ -45,7 +45,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
     order = "d[graphite-carbon-fiber]",
     enabled = false,
     energy_required = 2.5,
-    ingredients = data.raw.fluid["ammonia"] and
+    ingredients = data.raw.fluid["kr-ammonia"] and
     {
       util.item("carbon-black", 5),
       util.fluid("steam"),

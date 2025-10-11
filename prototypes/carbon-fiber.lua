@@ -19,7 +19,7 @@ if mods["space-age"] then
         util.item("spoilage", 1),
       },
       results = {
-        util.fluid("ammonia", 10),
+        util.fluid("kr-ammonia", 10),
       },
     }
   })
@@ -41,10 +41,10 @@ data:extend({
     order = "d[graphite-carbon-fiber]",
     enabled = false,
     energy_required = 1,
-    ingredients = data.raw.fluid["ammonia"] and
+    ingredients = data.raw.fluid["kr-ammonia"] and
     {
       {type="fluid", name="petroleum-gas", amount=5},
-      {type="fluid", name="ammonia", amount=5},
+      {type="fluid", name="kr-ammonia", amount=5},
     } or {
       {type="fluid", name="petroleum-gas", amount=10},
     },
@@ -58,8 +58,8 @@ if mods["space-age"] then
   util.remove_ingredient("polyacrylonitrile", "petroleum-gas")
   util.add_ingredient("polyacrylonitrile", "jelly", 10)
   util.add_ingredient("polyacrylonitrile", "jelly", 10)
-  util.add_ingredient("polyacrylonitrile", "ammonia", 10)
-  util.add_ingredient("carbon-fiber", "ammonia", 10)
+  util.add_ingredient("polyacrylonitrile", "kr-ammonia", 10)
+  util.add_ingredient("carbon-fiber", "kr-ammonia", 10)
   util.replace_ingredient("carbon-fiber", "carbon", "polyacrylonitrile")
   util.set_item_icons("carbon-fiber", { {icon = "__bzcarbon__/graphics/icons/carbon-fiber.png", icon_size = 128,} })
   util.add_unlock("biochamber", "ammonia-from-spoilage")

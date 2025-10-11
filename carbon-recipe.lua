@@ -277,7 +277,6 @@ data:extend({
     order = "b-b"
   },
 })
-local ammonia = mods.Krastorio2 and "kr-ammonia" or "ammonia"
 data:extend({
 -- graphene
   {
@@ -303,7 +302,7 @@ data:extend({
     energy_required = 5,
     ingredients = (mods["space-age"] or util.k2()) and {
       {type="item", name="graphite", amount=1},
-      {type="fluid", name=ammonia, amount=5},
+      {type="fluid", name="kr-ammonia", amount=5},
       {type="fluid", name="sulfuric-acid", amount=5},
     } or {
       {type="item", name="graphite", amount=1},
@@ -611,7 +610,7 @@ if mods["space-age"] then
   data:extend({
   {
     type = "surface-property",
-    name = "oxygen",
+    name = "kr-oxygen",
     default_value = 19,
   },
   -- make graphite from diamonds on some surfaces
@@ -628,7 +627,7 @@ if mods["space-age"] then
     allow_productivity=true,
     energy_required = 16,
     surface_conditions = {
-      {property = "oxygen", max = 20},
+      {property = "kr-oxygen", max = 20},
     },
     ingredients = {
       {type="item", name="rough-diamond", amount=1},
@@ -676,10 +675,10 @@ if mods["space-age"] then
   })
   util.add_unlock("biochamber", "graphite-synthesis")
   util.set_recipe_time("burnt-spoilage", 4)
-  util.set_surface_property("nauvis", "oxygen", 21)
-  util.set_surface_property("gleba", "oxygen", 30)
-  util.set_surface_property("fulgora", "oxygen", 15)
-  util.set_surface_property("vulcanus", "oxygen", 12)
-  util.set_surface_property("aquilo", "oxygen", 10)
-  util.set_surface_property("space-platform", "oxygen", 0)
+  util.set_surface_property("nauvis", "kr-oxygen", 21)
+  util.set_surface_property("gleba", "kr-oxygen", 30)
+  util.set_surface_property("fulgora", "kr-oxygen", 15)
+  util.set_surface_property("vulcanus", "kr-oxygen", 12)
+  util.set_surface_property("aquilo", "kr-oxygen", 10)
+  util.set_surface_property("space-platform", "kr-oxygen", 0)
 end

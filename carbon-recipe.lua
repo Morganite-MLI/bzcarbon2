@@ -581,7 +581,7 @@ end
 
 
 -- Space exploration subgroups
-if mods["space-exploration"] and string.sub(mods["space-exploration"], 1, 3) == "0.6" then
+if mods["space-exploration"] then
   data:extend({
   {
     type = "item-subgroup",

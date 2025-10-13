@@ -5,8 +5,7 @@ if util.k2() then
 -- HCL graphite processing
 if util.me.use_flake_graphite() then
 local gsubgroup = "raw-material"
-if mods["space-exploration"] and string.sub(mods["space-exploration"], 1, 3) == "0.6" and
-data.raw["item-subgroup"]["carbon"] then
+if mods["space-exploration"] and data.raw["item-subgroup"]["carbon"] then
   gsubgroup = "carbon"
 end
 data:extend({

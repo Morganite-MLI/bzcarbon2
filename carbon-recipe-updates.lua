@@ -4,7 +4,7 @@ local util = require("data-util");
 util.add_prerequisite("steel-processing", "graphite-processing")
 
 util.add_prerequisite("low-density-structure", "diamond-processing")
-util.add_prerequisite("advanced-electronics-2", "diamond-processing")
+util.add_prerequisite("processing-unit", "diamond-processing")
 util.add_prerequisite("laser", "diamond-processing")
 
 -- update carbon black alternate recipe if possible

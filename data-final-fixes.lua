@@ -34,7 +34,7 @@ end
 -- Green circuits in final fixes due to K2 shenanigans 
 if mods.MDbobelectronics or mods.MDbobelectronics2 or mods.bobelectronics then
   util.replace_ingredient("basic-electronic-components", "coal", "graphite")
-  util.replace_ingredient("basic-electronic-components", "coke", "graphite")
+  util.replace_ingredient("basic-electronic-components", mods["Krastorio2"] and "kr-coke" or "coke", "graphite")
 else
   -- Electronic circuits need final fixes
   function modify_ec(recipe_name, to_replace)

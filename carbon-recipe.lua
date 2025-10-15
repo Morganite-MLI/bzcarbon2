@@ -88,7 +88,7 @@ data:extend({
 
 -- If no graphite ore, make it from coal or coke
 if not util.me.use_flake_graphite() then
-  if data.raw.item["coke"] then
+  if data.raw.item[mods["Krastorio2"] and "kr-coke" or "coke"] then
     data:extend({
       {
         type = "recipe",
@@ -98,7 +98,7 @@ if not util.me.use_flake_graphite() then
         order = "d[graphite]",
         enabled = false,
         energy_required = 0.5,
-        ingredients = {util.item("coke", 1)},
+        ingredients = {util.item(mods["Krastorio2"] and "kr-coke" or "coke", 1)},
         results = {util.item("graphite", 2)},
       }
     })

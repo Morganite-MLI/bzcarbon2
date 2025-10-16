@@ -82,7 +82,7 @@ if util.me.use_fullerenes() then
   -- K2
   util.add_ingredient("kr-biter-virus", "fullerenes", 100)
   util.add_ingredient("kr-creep-virus", "fullerenes", 100)
-  util.replace_some_ingredient("kr-biomass-growing", "petroleum-gas", 25, "fullerenes", 25)
+  util.replace_some_ingredient("kr-biomass", "petroleum-gas", 25, "fullerenes", 25)
 
   -- SE
   util.add_ingredient("se-vitalic-reagent", "fullerenes", 4)

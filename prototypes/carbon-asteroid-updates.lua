@@ -21,7 +21,7 @@ if mods["space-age"] then
         {icon="__bzcarbon__/graphics/icons/flake-graphite.png", icon_size=128, scale=0.125, shift={8,0}},
         {icon="__bzcarbon__/graphics/icons/rough-diamond.png", icon_size=128, scale=0.125, shift={-8,0}},
       },
-      category = "kr-crushing",
+      category = "crushing",
       subgroup="space-crushing",
       order = "b-a-z-b",
       auto_recycle = false,

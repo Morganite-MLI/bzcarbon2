@@ -302,7 +302,7 @@ data:extend({
     energy_required = 5,
     ingredients = (mods["space-age"] or util.k2()) and {
       {type="item", name="graphite", amount=1},
-      {type="fluid", name="kr-ammonia", amount=5},
+      {type="fluid", name=util.k2() and "kr-ammonia" or "ammonia", amount=5},
       {type="fluid", name="sulfuric-acid", amount=5},
     } or {
       {type="item", name="graphite", amount=1},

@@ -7,7 +7,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
   {
     type = "item",
     name = "activated-carbon",
-    icon = "__bzcarbon__/graphics/icons/activated-carbon.png",
+    icon = "__bzcarbon2__/graphics/icons/activated-carbon.png",
     icon_size = 128,
     subgroup = "intermediate-product",
     order = "g[activated-carbon]",
@@ -38,8 +38,8 @@ if mods["wood-industry"] then precursor = "charcoal" end
     name = "activated-carbon-black",
     localised_name = {"item-name.activated-carbon"},
     icons = {
-      { icon = "__bzcarbon__/graphics/icons/activated-carbon.png", icon_size = 128},
-      { icon = "__bzcarbon__/graphics/icons/carbon-black.png", icon_size = 64, scale = 0.25, shift = {-8, -8}},
+      { icon = "__bzcarbon2__/graphics/icons/activated-carbon.png", icon_size = 128},
+      { icon = "__bzcarbon2__/graphics/icons/carbon-black.png", icon_size = 64, scale = 0.25, shift = {-8, -8}},
     },
     category = "chemistry",
     order = "d[graphite-carbon-fiber]",

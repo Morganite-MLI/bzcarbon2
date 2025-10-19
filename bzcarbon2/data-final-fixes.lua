@@ -21,7 +21,7 @@ if data.raw.recipe["supercapacitor"] then
   new_recipe.localised_name = {"item-name.supercapacitor"}
   new_recipe.icons = {
       { icon = data.raw.item["supercapacitor"].icon, icon_size = data.raw.item["supercapacitor"].icon_size},
-      { icon = "__bzcarbon__/graphics/icons/graphene.png", icon_size = 128, scale=0.125, shift= {-8, -8}, tint={1,1,1}},
+      { icon = "__bzcarbon2__/graphics/icons/graphene.png", icon_size = 128, scale=0.125, shift= {-8, -8}, tint={1,1,1}},
     }
   new_recipe.icon = nil
   new_recipe.icon_size = nil

@@ -14,7 +14,7 @@ data:extend(
         icon_size = 256,
       },
       {
-        icon = "__bzcarbon__/graphics/icons/diamond.png",
+        icon = "__bzcarbon2__/graphics/icons/diamond.png",
         icon_size = 128,
         scale = 0.7,
       }

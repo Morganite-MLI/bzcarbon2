@@ -43,7 +43,7 @@ data:extend({
       },
       icons =
       {
-        { icon = "__bzcarbon__/graphics/icons/diamond.png", icon_size = 128},
+        { icon = "__bzcarbon2__/graphics/icons/diamond.png", icon_size = 128},
         { icon = "__space-exploration-graphics__/graphics/icons/vulcanite-block.png", icon_size = 64, scale=0.25, shift= {-10, -10}},
       },
     },

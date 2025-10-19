@@ -18,8 +18,8 @@ if mods["space-age"] then
       icons = 
       {
         {icon="__space-age__/graphics/icons/carbonic-asteroid-crushing.png", size=64},
-        {icon="__bzcarbon__/graphics/icons/flake-graphite.png", icon_size=128, scale=0.125, shift={8,0}},
-        {icon="__bzcarbon__/graphics/icons/rough-diamond.png", icon_size=128, scale=0.125, shift={-8,0}},
+        {icon="__bzcarbon2__/graphics/icons/flake-graphite.png", icon_size=128, scale=0.125, shift={8,0}},
+        {icon="__bzcarbon2__/graphics/icons/rough-diamond.png", icon_size=128, scale=0.125, shift={-8,0}},
       },
       category = "crushing",
       subgroup="space-crushing",

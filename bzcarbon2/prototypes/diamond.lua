@@ -28,7 +28,7 @@ data:extend({
 	{
     type = "resource",
     name = "diamond",
-    icon = "__bzcarbon__/graphics/icons/rough-diamond.png",
+    icon = "__bzcarbon2__/graphics/icons/rough-diamond.png",
     icon_size = 128,
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -56,7 +56,7 @@ data:extend({
     {
       sheet =
       {
-        filename = "__bzcarbon__/graphics/entity/ores/hr-diamond.png",
+        filename = "__bzcarbon2__/graphics/entity/ores/hr-diamond.png",
         priority = "extra-high",
         size = 128,
         frame_count = 8,
@@ -69,13 +69,13 @@ data:extend({
       type = "item",
       name = "rough-diamond",
       icon_size = 128,
-      icon = "__bzcarbon__/graphics/icons/rough-diamond.png",
+      icon = "__bzcarbon2__/graphics/icons/rough-diamond.png",
       pictures = {
-        {filename="__bzcarbon__/graphics/icons/rough-diamond.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/rough-diamond-1.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/rough-diamond-2.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/rough-diamond-3.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/rough-diamond-4.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/rough-diamond.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/rough-diamond-1.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/rough-diamond-2.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/rough-diamond-3.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/rough-diamond-4.png", size=128, scale=0.25},
       },
       inventory_move_sound = item_sounds.resource_inventory_move,
       pick_sound = item_sounds.resource_inventory_pickup,

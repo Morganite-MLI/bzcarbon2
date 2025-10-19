@@ -20,12 +20,12 @@ data:extend({
   {
     type = "item",
     name = "graphite",
-    icon = "__bzcarbon__/graphics/icons/graphite.png",
+    icon = "__bzcarbon2__/graphics/icons/graphite.png",
     icon_size = 128,
     pictures = {
-      {filename="__bzcarbon__/graphics/icons/graphite.png", size=128, scale=0.25},
-      {filename="__bzcarbon__/graphics/icons/graphite-1.png", size=128, scale=0.25},
-      {filename="__bzcarbon__/graphics/icons/graphite-2.png", size=128, scale=0.25},
+      {filename="__bzcarbon2__/graphics/icons/graphite.png", size=128, scale=0.25},
+      {filename="__bzcarbon2__/graphics/icons/graphite-1.png", size=128, scale=0.25},
+      {filename="__bzcarbon2__/graphics/icons/graphite-2.png", size=128, scale=0.25},
     },
     inventory_move_sound = item_sounds.sulfur_inventory_move,
     pick_sound = item_sounds.resource_inventory_pickup,
@@ -42,8 +42,8 @@ data:extend({
     order = "d[graphite]",
     icons = (util.k2() and
         {
-          { icon = "__bzcarbon__/graphics/icons/graphite.png", icon_size = 128},
-          { icon = "__bzcarbon__/graphics/icons/flake-graphite.png", icon_size = 128, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
+          { icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size = 128},
+          { icon = "__bzcarbon2__/graphics/icons/flake-graphite.png", icon_size = 128, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
         } or nil),
     -- normal = (util.k2() and
     --     {
@@ -70,7 +70,7 @@ data:extend({
     type = "technology",
     name = "graphite-processing",
     icon_size = 128,
-    icon = "__bzcarbon__/graphics/icons/graphite.png",
+    icon = "__bzcarbon2__/graphics/icons/graphite.png",
     effects = {},
     unit =
     {
@@ -93,7 +93,7 @@ if not util.me.use_flake_graphite() then
       {
         type = "recipe",
         name = "graphite",
-        icon = "__bzcarbon__/graphics/icons/graphite.png", icon_size=128,
+        icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size=128,
         category = mods.bzfoundry2 and "founding" or "crafting",
         order = "d[graphite]",
         enabled = false,
@@ -107,7 +107,7 @@ if not util.me.use_flake_graphite() then
       {
         type = "recipe",
         name = "graphite",
-        icon = "__bzcarbon__/graphics/icons/graphite.png", icon_size=128,
+        icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size=128,
         category = mods.bzfoundry2 and "founding" or "crafting",
         subgroup = data.raw.item.graphite.subgroup,
         order = "d[graphite]",
@@ -174,7 +174,7 @@ data:extend({
   {
     type = "item",
     name = "diamond",
-    icon = "__bzcarbon__/graphics/icons/diamond.png",
+    icon = "__bzcarbon2__/graphics/icons/diamond.png",
     inventory_move_sound = item_sounds.brick_inventory_move,
     pick_sound = item_sounds.brick_inventory_pickup,
     drop_sound = item_sounds.brick_inventory_move,
@@ -191,8 +191,8 @@ data:extend({
     order = "d[diamond]",
     icons = (util.me.use_rough_diamond() and
         {
-          { icon = "__bzcarbon__/graphics/icons/diamond.png", icon_size = 128},
-          { icon = "__bzcarbon__/graphics/icons/graphite-2.png", icon_size = 128, scale=0.125, shift= {-8, -8}},
+          { icon = "__bzcarbon2__/graphics/icons/diamond.png", icon_size = 128},
+          { icon = "__bzcarbon2__/graphics/icons/graphite-2.png", icon_size = 128, scale=0.125, shift= {-8, -8}},
         } or nil),
     allow_productivity=true,
     enabled = false,
@@ -215,9 +215,9 @@ data:extend({
     order = "d[diamond]",
     icons = (util.k2() and
         {
-          { icon = "__bzcarbon__/graphics/icons/diamond.png", icon_size = 128},
-          { icon = "__bzcarbon__/graphics/icons/rough-diamond.png", icon_size = 64, scale=0.25, shift= {-8, -8}},
-        } or  {{ icon = "__bzcarbon__/graphics/icons/diamond.png", icon_size = 128}}),
+          { icon = "__bzcarbon2__/graphics/icons/diamond.png", icon_size = 128},
+          { icon = "__bzcarbon2__/graphics/icons/rough-diamond.png", icon_size = 64, scale=0.25, shift= {-8, -8}},
+        } or  {{ icon = "__bzcarbon2__/graphics/icons/diamond.png", icon_size = 128}}),
     -- normal = (util.k2() and
     --     {
     --       enabled = false,
@@ -250,7 +250,7 @@ data:extend({
     type = "technology",
     name = "diamond-processing",
     icon_size = 128,
-    icon = "__bzcarbon__/graphics/icons/diamond.png",
+    icon = "__bzcarbon2__/graphics/icons/diamond.png",
     effects =
     {
       {
@@ -282,7 +282,7 @@ data:extend({
   {
     type = "item",
     name = "graphene",
-    icon = "__bzcarbon__/graphics/icons/graphene.png",
+    icon = "__bzcarbon2__/graphics/icons/graphene.png",
     icon_size = 128,
     inventory_move_sound = item_sounds.plastic_inventory_move,
     pick_sound = item_sounds.plastic_inventory_pickup,
@@ -315,7 +315,7 @@ data:extend({
     type = "technology",
     name = "graphene",
     icon_size = 128,
-    icon = "__bzcarbon__/graphics/icons/graphene.png",
+    icon = "__bzcarbon2__/graphics/icons/graphene.png",
     effects =
     {
       {
@@ -361,7 +361,7 @@ data:extend({
   {
     type = "item",
     name = "fullerenes",
-    icon = "__bzcarbon__/graphics/icons/Fullerene.png",
+    icon = "__bzcarbon2__/graphics/icons/Fullerene.png",
     icon_size = 128,
     inventory_move_sound = item_sounds.plastic_inventory_move,
     pick_sound = item_sounds.plastic_inventory_pickup,
@@ -393,7 +393,7 @@ data:extend({
     type = "technology",
     name = "fullerenes",
     icon_size = 128,
-    icon = "__bzcarbon__/graphics/icons/Fullerene.png",
+    icon = "__bzcarbon2__/graphics/icons/Fullerene.png",
     effects =
     {
       {
@@ -418,7 +418,7 @@ data:extend({
   {
     type = "item",
     name = "nanotubes",
-    icon = "__bzcarbon__/graphics/icons/nanotube.png",
+    icon = "__bzcarbon2__/graphics/icons/nanotube.png",
     icon_size = 128,
     inventory_move_sound = item_sounds.plastic_inventory_move,
     pick_sound = item_sounds.plastic_inventory_pickup,
@@ -432,7 +432,7 @@ data:extend({
     type = "recipe",
     name = "nanotubes",
     main_product = "nanotubes",
-    icon = "__bzcarbon__/graphics/icons/nanotube.png",
+    icon = "__bzcarbon2__/graphics/icons/nanotube.png",
     icon_size = 128,
     category = "chemistry",
     subgroup = "intermediate-product",
@@ -456,7 +456,7 @@ data:extend({
     type = "technology",
     name = "nanotubes",
     icon_size = 128,
-    icon = "__bzcarbon__/graphics/icons/nanotube.png",
+    icon = "__bzcarbon2__/graphics/icons/nanotube.png",
     effects =
     {
       {
@@ -498,7 +498,7 @@ data:extend({
   {
     type = "item",
     name = "carbon-black",
-    icon = "__bzcarbon__/graphics/icons/carbon-black.png",
+    icon = "__bzcarbon2__/graphics/icons/carbon-black.png",
     icon_size = 64,
     inventory_move_sound = item_sounds.sulfur_inventory_move,
     pick_sound = item_sounds.resource_inventory_pickup,
@@ -511,7 +511,7 @@ data:extend({
   {
     type = "recipe",
     name = "carbon-black",
-    icon = "__bzcarbon__/graphics/icons/carbon-black.png",
+    icon = "__bzcarbon2__/graphics/icons/carbon-black.png",
     icon_size = 64, icon_mipmaps = 3,
     category = "chemistry",
     order = "d[graphite-carbon-black]",
@@ -529,8 +529,8 @@ data:extend({
     type = "recipe",
     name = "graphite-carbon-black",
     icons = {
-      { icon = "__bzcarbon__/graphics/icons/carbon-black.png", icon_size = 64, icon_mipmaps = 3},
-      { icon = "__bzcarbon__/graphics/icons/graphite.png", icon_size = 128},
+      { icon = "__bzcarbon2__/graphics/icons/carbon-black.png", icon_size = 64, icon_mipmaps = 3},
+      { icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size = 128},
     },
     category = "chemistry",
     order = "d[graphite]",
@@ -550,7 +550,7 @@ data:extend({
 {
   type = "item",
   name = "crucible",
-  icon = "__bzcarbon__/graphics/icons/crucible.png", icon_size = 128,
+  icon = "__bzcarbon2__/graphics/icons/crucible.png", icon_size = 128,
   inventory_move_sound = item_sounds.brick_inventory_move,
   pick_sound = item_sounds.brick_inventory_pickup,
   drop_sound = item_sounds.brick_inventory_move,
@@ -618,8 +618,8 @@ if mods["space-age"] then
     type = "recipe",
     name = "graphitization",
     icons = {
-      {icon = "__bzcarbon__/graphics/icons/graphite.png", icon_size = 128},
-      {icon = "__bzcarbon__/graphics/icons/rough-diamond.png", icon_size = 128, scale = 0.125, shift={-8,-8}},
+      {icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size = 128},
+      {icon = "__bzcarbon2__/graphics/icons/rough-diamond.png", icon_size = 128, scale = 0.125, shift={-8,-8}},
     },
     category = "smelting",
     order = "d[graphite]",
@@ -639,7 +639,7 @@ if mods["space-age"] then
     type = "technology",
     name = "diamond-processing-2",
     icon_size = 128,
-    icon = "__bzcarbon__/graphics/icons/diamond.png",
+    icon = "__bzcarbon2__/graphics/icons/diamond.png",
     effects =
     {
       {

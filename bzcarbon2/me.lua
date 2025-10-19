@@ -1,6 +1,6 @@
 local me = {}
 
-me.name = "bzcarbon"
+me.name = "bzcarbon2"
 me.resources = {} -- see end of file
 
 me.list = {}

@@ -14,7 +14,7 @@ data:extend({
     name = "enriched-graphite",
     main_product = "graphite",
     icons = {
-          { icon = "__bzcarbon__/graphics/icons/graphite.png", icon_size = 128},
+          { icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size = 128},
           { icon = util.k2assets().."/icons/fluids/hydrogen-chloride.png", icon_size = 64, scale=0.25,  icon_mipmaps = 3, shift= {-8, -8}},
         },
     category = "chemistry",
@@ -85,7 +85,7 @@ data:extend({
       icons =
       {
         {
-          icon = "__bzcarbon__/graphics/icons/graphite.png",
+          icon = "__bzcarbon2__/graphics/icons/graphite.png",
           icon_size = 128,
         },
         {
@@ -130,7 +130,7 @@ data:extend({
     name = "heavy-water-graphene",
     icons = {
           { icon = util.k2assets().."/icons/fluids/heavy-water.png", icon_size = 64, icon_mipmaps = 3,},
-          { icon = "__bzcarbon__/graphics/icons/graphene.png", icon_size = 128,  scale=0.25, shift= {-8, -8}},
+          { icon = "__bzcarbon2__/graphics/icons/graphene.png", icon_size = 128,  scale=0.25, shift= {-8, -8}},
         },
     category = "kr-electrolysis",
     subgroup = "fluid-recipes",

@@ -28,7 +28,7 @@ data:extend({
   {
     type = "item",
     name = "polyacrylonitrile",
-    icon = "__bzcarbon__/graphics/icons/pan.png",
+    icon = "__bzcarbon2__/graphics/icons/pan.png",
     icon_size = 128,
     subgroup = "intermediate-product",
     order = "g[graphite-acrylic-fiber]",
@@ -61,7 +61,7 @@ if mods["space-age"] then
   util.add_ingredient("polyacrylonitrile", "ammonia", 10)
   util.add_ingredient("carbon-fiber", "ammonia", 10)
   util.replace_ingredient("carbon-fiber", "carbon", "polyacrylonitrile")
-  util.set_item_icons("carbon-fiber", { {icon = "__bzcarbon__/graphics/icons/carbon-fiber.png", icon_size = 128,} })
+  util.set_item_icons("carbon-fiber", { {icon = "__bzcarbon2__/graphics/icons/carbon-fiber.png", icon_size = 128,} })
   util.add_unlock("biochamber", "ammonia-from-spoilage")
   util.add_unlock("carbon-fiber", "polyacrylonitrile")
 else
@@ -69,7 +69,7 @@ else
     {
       type = "item",
       name = "carbon-fiber",
-      icon = "__bzcarbon__/graphics/icons/carbon-fiber.png",
+      icon = "__bzcarbon2__/graphics/icons/carbon-fiber.png",
       icon_size = 128,
       subgroup = "intermediate-product",
       order = "g[graphite-carbon-fiber]",
@@ -97,7 +97,7 @@ else
       type = "technology",
       name = "carbon-fiber",
       icon_size = 256,
-      icon = "__bzcarbon__/graphics/technology/carbon-fiber.png",
+      icon = "__bzcarbon2__/graphics/technology/carbon-fiber.png",
       effects = {
         {type="unlock-recipe", recipe="polyacrylonitrile"},
         {type="unlock-recipe", recipe="carbon-fiber"},

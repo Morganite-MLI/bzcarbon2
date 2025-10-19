@@ -1,7 +1,7 @@
 local util = require("data-util");
 
 local ore = "flake-graphite"
-local ore_icon = "__bzcarbon__/graphics/icons/flake-graphite.png"
+local ore_icon = "__bzcarbon2__/graphics/icons/flake-graphite.png"
 
 if util.me.use_flake_graphite() and mods["StrangeMatter"] then
 data:extend({

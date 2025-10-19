@@ -15,18 +15,18 @@ function cutil.nanotube_recipe(recipe_name, item_name, tech)
     new_recipe.localised_name = {"recipe-name."..recipe_name}
     new_recipe.icons = {
         { icon = data.raw.recipe[recipe_name].icon, icon_size = data.raw.recipe[recipe_name].icon_size},
-        { icon = "__bzcarbon__/graphics/icons/nanotube.png", icon_size = 128, scale=0.125, shift= {-8, -8}},
+        { icon = "__bzcarbon2__/graphics/icons/nanotube.png", icon_size = 128, scale=0.125, shift= {-8, -8}},
       }
   else
     new_recipe.localised_name = {"item-name."..item_name}
     if new_recipe.icons and #new_recipe.icons > 1 then
       table.insert(new_recipe.icons,
-          { icon = "__bzcarbon__/graphics/icons/nanotube.png", icon_size = 128, scale=0.125, shift= {-8, -8}}
+          { icon = "__bzcarbon2__/graphics/icons/nanotube.png", icon_size = 128, scale=0.125, shift= {-8, -8}}
       )
     else
       new_recipe.icons = {
           { icon = data.raw.item[item_name].icon, icon_size = data.raw.item[item_name].icon_size},
-          { icon = "__bzcarbon__/graphics/icons/nanotube.png", icon_size = 128, scale=0.125, shift= {-8, -8}},
+          { icon = "__bzcarbon2__/graphics/icons/nanotube.png", icon_size = 128, scale=0.125, shift= {-8, -8}},
         }
     end
   end

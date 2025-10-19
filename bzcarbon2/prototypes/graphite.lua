@@ -28,7 +28,7 @@ data:extend({
 	{
     type = "resource",
     name = "graphite",
-    icon = "__bzcarbon__/graphics/icons/flake-graphite.png",
+    icon = "__bzcarbon2__/graphics/icons/flake-graphite.png",
     icon_size = 128,
     flags = {"placeable-neutral"},
     order="a-b-a",
@@ -60,7 +60,7 @@ data:extend({
     {
       sheet =
       {
-        filename = "__bzcarbon__/graphics/entity/ores/hr-graphite.png",
+        filename = "__bzcarbon2__/graphics/entity/ores/hr-graphite.png",
         priority = "extra-high",
         size = 128,
         frame_count = 8,
@@ -73,13 +73,13 @@ data:extend({
       type = "item",
       name = "flake-graphite",
       icon_size = 128, 
-      icon = "__bzcarbon__/graphics/icons/flake-graphite.png",
+      icon = "__bzcarbon2__/graphics/icons/flake-graphite.png",
       pictures = {
-        {filename="__bzcarbon__/graphics/icons/flake-graphite.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/flake-graphite-1.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/flake-graphite-2.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/flake-graphite-3.png", size=128, scale=0.25},
-        {filename="__bzcarbon__/graphics/icons/flake-graphite-4.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/flake-graphite.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/flake-graphite-1.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/flake-graphite-2.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/flake-graphite-3.png", size=128, scale=0.25},
+        {filename="__bzcarbon2__/graphics/icons/flake-graphite-4.png", size=128, scale=0.25},
       },
       inventory_move_sound = item_sounds.resource_inventory_move,
       pick_sound = item_sounds.resource_inventory_pickup,

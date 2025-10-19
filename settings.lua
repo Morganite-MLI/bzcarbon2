@@ -62,7 +62,7 @@ if not mods["space-age"] and not mods["rso-mod"] then
 	},
   })
 end
-if mods.bzchlorine then
+if mods.bzchlorine2 then
   data:extend({
     {
       type = "string-setting",

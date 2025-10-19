@@ -1,27 +1,26 @@
 {
-    "name": "bzcarbon2",
-    "version": "2.0.22",
-    "factorio_version": "2.0",
-    "title": "Graphite & Diamonds - Legacy",
-    "author": "Brevven",
-    "contact": "",
-    "homepage": "",
-    "dependencies": [
-      "base >= 2.0.42",
-      "? space-age",
-      "? bztitanium",
-      "? bzsilicon",
-      "? bzzirconium",
-      "? bzfoundry2",
-      "? space-exploration",
-      "? aai-industry",
-      "? Krastorio2",
-      "? Krastorio2-spaced-out",
-      "? 248k-Redux",
-      "(?) modmashsplintersubspacelogistics",
-      "? deadlock-beltboxes-loaders",
-      "? DeadlockCrating"
-    ],
-    "description": "Adds elemental carbon items to the game, including graphite, diamonds, graphene, and more.\n\nCompatible with Space Age, and more. A standalone piece of BZ Mods"
+  "name": "bzcarbon2",
+  "version": "2.0.22",
+  "factorio_version": "2.0",
+  "title": "Graphite & Diamonds - Legacy",
+  "description": "Adds elemental carbon items to the game, including graphite, diamonds, graphene, and more.",
+  "author": "Brevven, cackling fiend",
+  "homepage": "https://discord.gg/ufvFUJtVwk",
+  "dependencies": [
+    "base >= 2.0.42",
+    "? bztitanium",
+    "? bzsilicon",
+    "? bzzirconium",
+    "? bzfoundry2",
+    "? space-exploration",
+    "? aai-industry",
+    "? Krastorio2",
+    "? Krastorio2-spaced-out",
+    "? 248k-Redux",
+    "(?) modmashsplintersubspacelogistics",
+    "? deadlock-beltboxes-loaders",
+    "? DeadlockCrating",
+    "! space-age"
+  ]
 }
 

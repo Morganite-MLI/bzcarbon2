@@ -24,7 +24,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
     {
       util.item(precursor),
       util.fluid("steam"),
-      (mods["bztitanium2"] or mods.bzzirconium) and util.fluid("vacuum") or nil
+      (mods["bztitanium2"] or mods["bzzirconium2"]) and util.fluid("vacuum") or nil
     },
     results = {
       {type="item", name= "activated-carbon", amount=1},
@@ -49,7 +49,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
     {
       util.item("carbon-black", 5),
       util.fluid("steam"),
-      (mods["bztitanium2"] or mods.bzzirconium) and util.fluid("vacuum") or nil
+      (mods["bztitanium2"] or mods["bzzirconium2"]) and util.fluid("vacuum") or nil
     },
     results = {
       {type="item", name= "activated-carbon", amount=1},

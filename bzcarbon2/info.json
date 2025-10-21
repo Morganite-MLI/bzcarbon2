@@ -10,7 +10,7 @@
     "base >= 2.0.42",
     "? bztitanium2",
     "? bzsilicon2",
-    "? bzzirconium",
+    "? bzzirconium2",
     "? bzfoundry2",
     "? space-exploration",
     "? aai-industry",

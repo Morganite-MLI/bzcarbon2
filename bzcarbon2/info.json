@@ -9,7 +9,7 @@
   "dependencies": [
     "base >= 2.0.42",
     "? bztitanium2",
-    "? bzsilicon",
+    "? bzsilicon2",
     "? bzzirconium",
     "? bzfoundry2",
     "? space-exploration",

@@ -107,7 +107,7 @@ if util.me.use_carbon_black() then
   util.add_product("coal-liquefaction", util.item("carbon-black", 1))
 
   --K2
-  if mods.bztitanium then
+  if mods["bztitanium2"] then
     util.add_ingredient("kr-black-reinforced-plate", "carbon-black", 5)
     util.add_ingredient("kr-white-reinforced-plate", "titanium-plate", 1)
   end

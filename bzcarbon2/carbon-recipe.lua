@@ -43,7 +43,7 @@ data:extend({
     icons = (util.k2() and
         {
           { icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size = 128},
-          { icon = "__bzcarbon2__/graphics/icons/flake-graphite.png", icon_size = 128, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
+          { icon = "__bzcarbon2__/graphics/icons/flake-graphite.png", icon_size = 128, icon_mipmaps = 3, scale=0.125, shift= {-8, -8}},
         } or nil),
     -- normal = (util.k2() and
     --     {

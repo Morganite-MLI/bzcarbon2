@@ -84,7 +84,7 @@ me.crucible_ingredients = {"zirconia", "silica", "stone-brick"}
 
 me.furnaces =  {
   "electric-furnace",
-  "foundry",              -- Space Age
+  -- "foundry",              -- Space Age
   "basic-foundry",        -- BZ Tin
   "electric-foundry",     -- BZ
   "industrial-furnace",   -- AAI

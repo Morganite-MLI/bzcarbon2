@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.24
+Date: 01.11.2025
+  Bug Fixes:
+    - Fix graphite recipe icon scale
+    - Fix foundry requiring crucible while crucible is being made in foundry
+    - Fix K2 nanotube renames (thanks pla)
+---------------------------------------------------------------------------------------------------
 Version: 2.0.23
 Date: 21.10.2025
   Changes:

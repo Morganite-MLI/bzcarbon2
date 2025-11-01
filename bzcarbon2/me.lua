@@ -84,7 +84,6 @@ me.crucible_ingredients = {"zirconia", "silica", "stone-brick"}
 
 me.furnaces =  {
   "electric-furnace",
-  "foundry",              -- Space Age
   "basic-foundry",        -- BZ Tin
   "electric-foundry",     -- BZ
   "industrial-furnace",   -- AAI
@@ -105,6 +104,11 @@ me.furnaces =  {
   "5d-electric-furnace-10",
   "5d-industrial-furnace",
 }
+
+-- Space Age foundry conflicts with bzfoundry burner foundry
+if has_mod("space-age") then
+  table.insert(me.furnaces, "foundry")
+end
 
 if me.use_flake_graphite() then 
   table.insert(me.resources, {"graphite", "nauvis"})

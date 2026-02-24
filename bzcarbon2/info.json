@@ -17,7 +17,7 @@
     "? aai-industry",
     "? Krastorio2",
     "? Krastorio2-spaced-out",
-    "? 248k-Redux",
+    "? 248k-Redux >= 0.1.35",
     "(?) modmashsplintersubspacelogistics",
     "? deadlock-beltboxes-loaders",
     "? DeadlockCrating",

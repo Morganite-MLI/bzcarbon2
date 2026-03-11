@@ -8,6 +8,7 @@
   "homepage": "https://discord.gg/ufvFUJtVwk",
   "dependencies": [
     "base >= 2.0.42",
+    "bzlib",
     "? bztitanium2",
     "? bzsilicon2",
     "? bzzirconium2",

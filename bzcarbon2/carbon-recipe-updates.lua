@@ -131,11 +131,11 @@ util.add_ingredient("pump", "graphite", 2)
 
 if data.raw.recipe["speed-module-5"] then
   util.add_ingredient("speed-module-5", "diamond", 5)
-  util.add_ingredient("effectivity-module-5", "diamond", 5)
+  util.add_ingredient("efficiency-module-5", "diamond", 5)
   util.add_ingredient("productivity-module-5", "diamond", 5)
 elseif data.raw.recipe["speed-module-4"] then
   util.add_ingredient("speed-module-4", "diamond", 6)
-  util.add_ingredient("effectivity-module-4", "diamond", 6)
+  util.add_ingredient("efficiency-module-4", "diamond", 6)
   util.add_ingredient("productivity-module-4", "diamond", 6)
 else
   util.add_ingredient("speed-module-2", "diamond", 1)

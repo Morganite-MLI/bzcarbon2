@@ -207,7 +207,7 @@ util.add_ingredient("kr-quarry-drill", "diamond", 20)
 util.add_ingredient("advanced-exoskeleton-equipment", "diamond", 10)
 
 util.add_ingredient("improved-pollution-filter", "graphene", 1)
-util.add_ingredient("lithium-sulfur-battery", "graphene", 1)
+util.add_ingredient("kr-lithium-sulfur-battery", "graphene", 1)
 util.add_ingredient("matter-research-data", "graphene", 5)
 util.add_ingredient("kr-advanced-solar-panel", "graphene", 5)
 util.add_ingredient("imersite-solar-panel-equipment", "graphene", 5)

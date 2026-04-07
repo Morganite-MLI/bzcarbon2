@@ -88,7 +88,7 @@ if util.me.use_fullerenes() then
   util.add_ingredient("se-vitalic-reagent", "fullerenes", 4)
   util.add_ingredient("se-medpack-2", "fullerenes", 100)
   util.add_ingredient("se-nutrient-gel", "fullerenes", 5)
-  util.add_ingredient("se-nutrient-gel-coal", "fullerenes", 5)
+  util.add_ingredient("se-nutrient-gel-methane", "fullerenes", 5)
 end
 
 
@@ -100,6 +100,7 @@ if util.me.use_carbon_black() then
   util.replace_ingredient("plastic-bar", "crushed-coal", "carbon-black", 1)
   util.add_product("basic-oil-processing", util.item("carbon-black", 1))
   util.add_product("advanced-oil-processing", util.item("carbon-black", 1))
+  util.add_product("oil-processing-heavy", util.item("carbon-black", 1))
   util.add_product("light-oil-cracking", util.item("carbon-black", 1))
   util.add_product("heavy-oil-cracking", util.item("carbon-black", 1))
   -- More outlets for carbon black now, so can make it here too

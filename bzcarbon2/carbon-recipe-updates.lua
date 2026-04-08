@@ -210,7 +210,9 @@ util.add_ingredient("kr-quarry-drill", "diamond", 20)
 util.add_ingredient("kr-advanced-exoskeleton-equipment", "diamond", 10)
 
 util.add_ingredient("kr-lithium-sulfur-battery", "graphene", 1)
-util.add_ingredient("kr-matter-research-data", "graphene", 5)
+if not mods["space-exploration"] then
+  util.add_ingredient("kr-matter-research-data", "graphene", 5)
+end
 util.add_ingredient("kr-advanced-solar-panel", "graphene", 5)
 util.add_ingredient("kr-superior-solar-panel-equipment", "graphene", 5)
 util.add_ingredient("kr-advanced-chemical-plant", "graphene", 20)

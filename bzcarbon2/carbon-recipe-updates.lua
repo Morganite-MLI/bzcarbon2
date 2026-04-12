@@ -106,6 +106,7 @@ if util.me.use_carbon_black() then
   -- More outlets for carbon black now, so can make it here too
   util.add_product("simple-coal-liquefaction", util.item("carbon-black", 1))
   util.add_product("coal-liquefaction", util.item("carbon-black", 1))
+  util.add_product("kr-coke-liquefaction", util.item("carbon-black", 1))
 
   --K2
   if mods["bztitanium2"] then

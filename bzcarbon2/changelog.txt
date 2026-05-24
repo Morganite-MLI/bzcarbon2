@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: 24.05.2026
+  Thanks to Morganite for all the fixes
+  Bug Fixes:
+    - Fullerenes should be added to both nutrient gel recipes
+    - Add carbon black byproduct to oil-processing-heavy
+    - Fix matter liberation products and icon
+    - Fix changed k2 prototype names
+    - Don't add graphene to matter research data if space exploration is installed
+    - Increase amount of carbon fiber in LDS recipes when Space Exploration is installed
+    - Add carbon black byproduct to kr-coke-liquefaction
+---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 16.03.2026
   Bug Fixes:

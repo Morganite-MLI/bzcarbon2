@@ -32,6 +32,7 @@ data:extend({
       order = "g[diamond]",
       energy_required = 40,
       enabled = false,
+      allow_productivity=true,
       always_show_made_in = true,
       allow_as_intermediate = false,
       ingredients = {

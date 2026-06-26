@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.3
+Date: 26.06.2026
+  Bug Fixes:
+    - Restore productivity to a few recipes that were missing it
+    - Remove productivity from carbon black recipes that, per comments, should not have it
+
+---------------------------------------------------------------------------------------------------
 Version: 2.1.2
 Date: 24.05.2026
   Thanks to Morganite for all the fixes

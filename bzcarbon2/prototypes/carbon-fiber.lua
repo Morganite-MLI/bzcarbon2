@@ -40,6 +40,7 @@ data:extend({
     category = "chemistry",
     order = "d[graphite-carbon-fiber]",
     enabled = false,
+    allow_productivity=true,
     energy_required = 1,
     ingredients = data.raw.fluid["kr-ammonia"] and
     {
@@ -81,6 +82,7 @@ else
       category = "advanced-crafting",
       order = "d[graphite-carbon-fiber]",
       enabled = false,
+      allow_productivity=true,
       energy_required = 24,
       ingredients = {
         {type="fluid", name="epoxy", amount = 20},

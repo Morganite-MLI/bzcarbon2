@@ -21,6 +21,7 @@ data:extend({
     subgroup = gsubgroup,
     order = "g[graphite]",
     enabled = false,
+    allow_productivity=true,
     energy_required = 6,
 		crafting_machine_tint =
 		{
@@ -136,6 +137,7 @@ data:extend({
     subgroup = "fluid-recipes",
     order = "y06[heavy-water]",
     enabled = false,
+    allow_productivity=true,
     energy_required = 60,
     ingredients = {
       {type="item", name="graphene", amount=1, ignored_by_stats=1, ignored_by_productivity=1},

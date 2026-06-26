@@ -516,7 +516,6 @@ data:extend({
     category = "chemistry",
     order = "d[graphite-carbon-black]",
     enabled = false,
-    allow_productivity=true,
     energy_required = 1,
     ingredients = {
       {type="item", name="coal", amount=1},
@@ -535,7 +534,6 @@ data:extend({
     category = "chemistry",
     order = "d[graphite]",
     enabled = false,
-    allow_productivity=true,
     energy_required = 1,
     ingredients = {
       {type="item", name="carbon-black", amount=10},

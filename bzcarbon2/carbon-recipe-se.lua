@@ -28,7 +28,7 @@ data:extend({
     {
       type = "recipe",
       name = "diamond-synthesis-vulcanite",
-      category = "smelting",
+      categories = {"smelting"},
       order = "g[diamond]",
       energy_required = 40,
       enabled = false,

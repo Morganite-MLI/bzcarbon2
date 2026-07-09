@@ -7,7 +7,7 @@ if mods["space-age"] then
     {
       type = "recipe",
       name = "ammonia-from-spoilage",
-      category = "organic",
+      categories = {"organic"},
       subgroup = "agriculture-processes",
       icons = {
         {icon = "__space-age__/graphics/icons/fluid/ammonia.png", icon_size = 64},
@@ -37,7 +37,7 @@ data:extend({
   {
     type = "recipe",
     name = "polyacrylonitrile",
-    category = "chemistry",
+    categories = {"chemistry"},
     order = "d[graphite-carbon-fiber]",
     enabled = false,
     allow_productivity=true,
@@ -79,7 +79,7 @@ else
     {
       type = "recipe",
       name = "carbon-fiber",
-      category = "advanced-crafting",
+      categories = {"advanced-crafting"},
       order = "d[graphite-carbon-fiber]",
       enabled = false,
       allow_productivity=true,

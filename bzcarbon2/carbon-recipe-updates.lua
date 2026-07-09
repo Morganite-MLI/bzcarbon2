@@ -151,8 +151,8 @@ util.add_ingredient("assembling-machine-3", "diamond", 4)
 util.add_ingredient("low-density-structure", "diamond", 1)
 util.add_ingredient("se-low-density-structure-beryllium", "diamond", 1)
 if util.me.reuse() then
-  util.add_product("low-density-structure", {type="item", name="diamond", amount=1, probability = 0.5, ignored_by_stats=1, ignored_by_productivity=1})
-  util.add_product("se-low-density-structure-beryllium", {type="item", name="diamond", amount=1, probability = 0.5, ignored_by_stats=1, ignored_by_productivity=1})
+  util.add_product("low-density-structure", {type="item", name="diamond", amount=1, independent_probability = 0.5, ignored_by_stats=1, ignored_by_productivity=1})
+  util.add_product("se-low-density-structure-beryllium", {type="item", name="diamond", amount=1, independent_probability = 0.5, ignored_by_stats=1, ignored_by_productivity=1})
   if data.raw.recipe["low-density-structure"] and 
     not data.raw.recipe["low-density-structure"].icon and
     not data.raw.recipe["low-density-structure"].icons

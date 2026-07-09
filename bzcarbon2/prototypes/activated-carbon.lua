@@ -16,7 +16,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
   {
     type = "recipe",
     name = "activated-carbon",
-    category = "chemistry",
+    categories = {"chemistry"},
     order = "d[graphite-carbon-fiber]",
     enabled = false,
     energy_required = 2.5,
@@ -41,7 +41,7 @@ if mods["wood-industry"] then precursor = "charcoal" end
       { icon = "__bzcarbon2__/graphics/icons/activated-carbon.png", icon_size = 128},
       { icon = "__bzcarbon2__/graphics/icons/carbon-black.png", icon_size = 64, scale = 0.25, shift = {-8, -8}},
     },
-    category = "chemistry",
+    categories = {"chemistry"},
     order = "d[graphite-carbon-fiber]",
     enabled = false,
     energy_required = 2.5,

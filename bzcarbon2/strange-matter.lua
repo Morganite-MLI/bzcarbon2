@@ -16,7 +16,7 @@ data:extend({
     energy_required = 1,
     ingredients = {{type="fluid", name="strange-matter", amount = 2}},
     result = ore,
-    category = "crafting-with-fluid",
+    categories = {"crafting-with-fluid"},
     subgroup = "synthesis",
   },
   {

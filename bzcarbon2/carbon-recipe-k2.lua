@@ -17,7 +17,7 @@ data:extend({
           { icon = "__bzcarbon2__/graphics/icons/graphite.png", icon_size = 128},
           { icon = util.k2assets().."/icons/fluids/hydrogen-chloride.png", icon_size = 64, scale=0.25,  icon_mipmaps = 3, shift= {-8, -8}},
         },
-    category = "chemistry",
+    categories = {"chemistry"},
     subgroup = gsubgroup,
     order = "g[graphite]",
     enabled = false,
@@ -43,7 +43,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "dirty-water-filtration-graphite",
-		category = "kr-fluid-filtration",
+		categories = {"kr-fluid-filtration"},
 		icons =
 		{
 			{
@@ -69,8 +69,8 @@ data:extend({
 		results =
 		{
 			{type = "fluid", name = "water", amount = 90, catalyst_amount = 90},
-			{type = "item",  name = "stone", probability = 0.30, amount = 1},
-			{type = "item",  name = "flake-graphite", probability = 0.05, amount = 1},
+			{type = "item",  name = "stone", independent_probability = 0.30, amount = 1},
+			{type = "item",  name = "flake-graphite", independent_probability = 0.05, amount = 1},
 		},
 		crafting_machine_tint =
 		{
@@ -133,7 +133,7 @@ data:extend({
           { icon = util.k2assets().."/icons/fluids/heavy-water.png", icon_size = 64, icon_mipmaps = 3,},
           { icon = "__bzcarbon2__/graphics/icons/graphene.png", icon_size = 128,  scale=0.25, shift= {-8, -8}},
         },
-    category = "kr-electrolysis",
+    categories = {"kr-electrolysis"},
     subgroup = "fluid-recipes",
     order = "y06[heavy-water]",
     enabled = false,
@@ -144,7 +144,7 @@ data:extend({
       {type="fluid", name="water", amount=500},
     },
     results = {
-      {type="item", name="graphene", amount=1, probability=.8, ignored_by_stats=1, ignored_by_productivity=1},
+      {type="item", name="graphene", amount=1, independent_probability=.8, ignored_by_stats=1, ignored_by_productivity=1},
       {type="fluid", name="kr-heavy-water", amount=40},
     },
   }

@@ -1,9 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 3.1.2
+Date: 10.07.2026
+  Info:
+    - Pull in 2.1.4 changes
+    - Fixed the changelog format
+---------------------------------------------------------------------------------------------------
 Version: 3.1.1
 Date: 08.07.2026
   Compatibility:
     - Updated for 2.1
-
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.4
 Date: 26.06.2026
@@ -15,11 +20,11 @@ Date: 26.06.2026
   Bug Fixes:
     - Restore productivity to a few recipes that were missing it
     - Remove productivity from carbon black recipes that, per comments, should not have it
-
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.2
 Date: 24.05.2026
-  Thanks to Morganite for all the fixes
+  Info:
+    - Thanks to Morganite for all the fixes
   Bug Fixes:
     - Fullerenes should be added to both nutrient gel recipes
     - Add carbon black byproduct to oil-processing-heavy
@@ -56,7 +61,7 @@ Date: 21.10.2025
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.22
 Date: 19.10.2025
-  Legacy version meant to be played with my other forks and ATOM.
-
+  Info:
+    - Legacy version meant to be played with my other forks and ATOM.
   Bug Fixes:
     - Various mod compatibility fixes

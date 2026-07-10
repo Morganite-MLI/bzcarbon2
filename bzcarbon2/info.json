@@ -1,6 +1,6 @@
 {
   "name": "bzcarbon2",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "factorio_version": "2.1",
   "title": "Graphite & Diamonds - Legacy",
   "description": "Adds elemental carbon items to the game, including graphite, diamonds, graphene, and more.",
@@ -8,7 +8,7 @@
   "homepage": "https://discord.gg/ufvFUJtVwk",
   "dependencies": [
     "base >= 2.1",
-    "bzlib >= 1.2.3",
+    "bzlib >= 2.1.2",
     "? bztitanium2",
     "? bzsilicon2",
     "? bzzirconium2",
